@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Adventure Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Travel Adventure Blog</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#subscribe">Subscribe</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section text-center text-white">
+        <div class="container">
+            <h2>Explore the World with Us</h2>
+            <p>Join us on our adventures around the globe.</p>
+            <a href="#subscribe" class="btn btn-primary">Subscribe Now</a>
+        </div>
+    </section>
+
+    <section id="destinations" class="container my-5">
+        <h2 class="text-center">Popular Destinations</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpXnp4B-MtbcCPO5pl2qFEx0c8Hq__uSgvg&s" class="img-fluid" alt="Destination 1">
+                <h3>United Arab Emirates</h3>
+                <p>Dubai is a city of skyscrapers, ports, and beaches, where big business takes place alongside sun-seeking tourism.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="data:image/jpeg;base64,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"
+                    class="img-fluid" alt="Destination 2">
+                <h3>Canada</h3>
+                <p>Canada is a diverse, progressive, peaceful and welcoming nation known for its pristine wilderness and stunning natural beauty.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwERy5TMii39qsRKeZ4Avn8QXHIRxsJHWSw&s" class="img-fluid" alt="Destination 3">
+                <h3>India</h3>
+                <p>India is one of the strongest countries in the world. It is the seventh-largest country in the world area-wise and the second-most populous country in the world. India shares its borders with countries like Pakistan, Afghanistan, China,
+                    Nepal, Bhutan, Myanmar and Bangladesh.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="container my-5">
+        <h2 class="text-center">Recent Blog Posts</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://worldtravelfamily.com/wp-content/uploads/2012/07/Dubai-Travel-Guide-3-1000x524.jpg.webp" class="img-fluid" alt="Blog Post 1">
+                <h3>Blog Post </h3>
+                <p>During the expansion of the Sheikh Zayed Road between 1993 and 1998, remnants of a mangrove swamp were uncovered which were dated to approximately 7000 BCE.[3] It is thought that by about 3000 BCE, the coastline had moved seaward sufficiently
+                    towards the present-day coastline and the area became covered in sand.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.rM5H4W7ex9WK_SUMWG5CRQHaEK&pid=Api&P=0&h=220" class="img-fluid" alt="Blog Post 2">
+                <h3>Blog Post </h3>
+                <p>The Constitution is Canada’s supreme law. It gives the country its legal framework. It defines the powers of both the federal and provincial governments. It overrides any other laws. The Constitution is not one document. It is a complex
+                    mix of British and Canadian laws. It also contains unwritten rules known as constitutional conventions.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.P9QZh8eqYKnASwhZDuQy6AHaFD&pid=Api&P=0&h=220" class="img-fluid" alt="Blog Post 3">
+                <h3>Blog Post </h3>
+                <p>For more than 200 years, Britain had asserted its iron will over India. From the East India Company levying taxes starting in the 18th century to Britain instituting direct rule over two-thirds of the country in the mid-19th century, India
+                    had been extorted for centuries—and with the start of World War II, India was declared to be at war with Germany without any Indian political leaders actually being consulted.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="container my-5">
+        <h2 class="text-center">What Our Readers Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p class="mb-0"> 3 days ago Trip to Dubai ABSOLUTELY STUNNING EXPERIENCE....GREAT WORK FROM THE DISCOVER DAYS TEAM RIGHT FROM THE STARTING... FROM PLANNING THE TRIP MR VISHNU AND MS VAANI IS VERY HELPFUL WITH ALL THE PLANNING AND COORDINATION RELATED
+                        TO THE TRIP WHETHER IT IS HOTEL BOOKING OR FOR LOCATIONS TO VISIT...
+                    </p>
+                    <footer class="blockquote-footer">Rahul Singhal Balotra</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p class="mb-0">Studying in Canada is an exciting and rewarding experience for many students around the world. The chance to learn in world-class institutions, the possibility of making friends from different cultures, and the opportunity to experience
+                        all that Canada has to offer for yourself! It’s hard not to imagine studying in Canada when there are so many exciting adventures and study opportunities that await.</p>
+                    <footer class="blockquote-footer">Gabriela Peratello</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p class="mb-0">The journey in The Discovery of India begins from ancient history, leading up to the last years of the British Raj. Nehru uses his knowledge of the Upanishads, Vedas, and textbooks on ancient history to introduce to the reader the
+                        development of India from the Indus Valley civilization, through the changes in socio-political scenario every foreign invader brought, to the present day conditions..</p>
+                    <footer class="blockquote-footer">Mayank Shekhar</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe" class="container my-5">
+        <h2 class="text-center">Subscribe to Our Newsletter</h2>
+        <form class="text-center">
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Travel Adventure Blog. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#" class="text-white">Facebook</a> |
+            <a href="#" class="text-white">Twitter</a> |
+            <a href="#" class="text-white">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
